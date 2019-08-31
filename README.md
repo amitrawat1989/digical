@@ -1,2 +1,0 @@
-# digical
-laravel calculator package
