@@ -1,0 +1,14 @@
+{
+    "name": "amitrawat1989/digical",
+    "description": "This is demo package",
+    "authors": [
+        {
+            "name": "Amit Rawat",
+            "email": "amitrawat201728@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "amitrawat1989/digical": "master"
+    }
+}
