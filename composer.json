@@ -10,5 +10,12 @@
     "minimum-stability": "dev",
     "require": {
         "amitrawat1989/digical": "master"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amitrawat1989\\Digical\\CalculatorServiceProvider"
+            ] 
+        }
     }
 }
