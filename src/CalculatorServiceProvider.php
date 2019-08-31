@@ -1,6 +1,6 @@
 <?php
 
-namespace Devdojo\Calculator;
+namespace Amitrawat1989\Digical;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -14,7 +14,7 @@ class CalculatorServiceProvider extends ServiceProvider
     public function register()
     {
         // register our controller
-        $this->app->make('Devdojo\Calculator\CalculatorController');
+        $this->app->make('Amitrawat1989\Digical\CalculatorController');
         $this->loadViewsFrom(__DIR__.'/views', 'calculator');
     }
 

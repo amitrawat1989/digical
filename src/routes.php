@@ -4,7 +4,7 @@ Route::get('calculator', function(){
 	echo 'Hello from the calculator package!';
 });
 
-Route::get('add/{a}/{b}', 'Devdojo\Calculator\CalculatorController@add');
-Route::get('subtract/{a}/{b}', 'Devdojo\Calculator\CalculatorController@subtract');
-Route::get('multiply/{a}/{b}', 'Devdojo\Calculator\CalculatorController@multiply');
-Route::get('divide/{a}/{b}', 'Devdojo\Calculator\CalculatorController@divide');
+Route::get('add/{a}/{b}', 'Amitrawat1989\Digical\CalculatorController@add');
+Route::get('subtract/{a}/{b}', 'Amitrawat1989\Digical\CalculatorController@subtract');
+Route::get('multiply/{a}/{b}', 'Amitrawat1989\Digical\CalculatorController@multiply');
+Route::get('divide/{a}/{b}', 'Amitrawat1989\Digical\CalculatorController@divide');
