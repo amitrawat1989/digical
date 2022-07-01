@@ -1,7 +1,7 @@
 <?php
 
 Route::get('calculator', function(){
-	echo 'Hello from the calculator package!';
+	echo 'Hello World from the calculator package!';
 });
 
 Route::get('add/{a}/{b}', 'Amitrawat1989\Digical\CalculatorController@add');
